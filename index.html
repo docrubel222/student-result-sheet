@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result sheet</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <table>
+        <caption>Student Result Sheet</caption>
+        <tr class="font-bold dark">
+            <td colspan="2">Student Name :</td>
+            <td id="student-name" colspan="3">Enter Student Name</td>
+        </tr>
+        <tr class="light font-bold">
+            <td>Sub Code</td>
+            <td>Subject Name</td>
+            <td>Marks</td>
+            <td>Point</td>
+            <td>Grade</td>
+        </tr>
+        <tr class="dark">
+            <td>101</td>
+            <td>Bangla</td>
+            <td id="bangla-marks">00</td>
+            <td id="bangla-point">00</td>
+            <td id="bangla-grade">00</td>
+        </tr>
+        <tr class="light">
+            <td>102</td>
+            <td>English</td>
+            <td id="english-marks">00</td>
+            <td id="english-point">00</td>
+            <td id="english-grade">00</td>
+        </tr>
+        <tr class="dark">
+            <td>103</td>
+            <td>Math</td>
+            <td id="math-marks">00</td>
+            <td id="math-point">00</td>
+            <td id="math-grade">00</td>
+        </tr>
+        <tr class="font-bold light">
+            <td colspan="2" style="text-align: right; padding-right: 0;">Total</td>
+            <td id="total-marks">00</td>
+            <td id="average-point">00</td>
+            <td id="average-grade">00</td>
+        </tr>
+    </table>
+    
+    <script src="assets/main.js"></script>
+</body>
+</html>
